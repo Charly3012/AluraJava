@@ -1,0 +1,38 @@
+[
+  {
+    "Nombre": "Matrix",
+    "FechaDeLanzamiento": 1993,
+    "Nodo": 0,
+    "IncluidoEnElPlan": false,
+    "SumaDeLasEvaluaciones": 0.0,
+    "TotalDeEvaluaciones": 0,
+    "DuracionEnMinutos": 60
+  },
+  {
+    "Nombre": "Toy Story",
+    "FechaDeLanzamiento": 1995,
+    "Nodo": 0,
+    "IncluidoEnElPlan": false,
+    "SumaDeLasEvaluaciones": 0.0,
+    "TotalDeEvaluaciones": 0,
+    "DuracionEnMinutos": 81
+  },
+  {
+    "Nombre": "Encanto",
+    "FechaDeLanzamiento": 2021,
+    "Nodo": 0,
+    "IncluidoEnElPlan": false,
+    "SumaDeLasEvaluaciones": 0.0,
+    "TotalDeEvaluaciones": 0,
+    "DuracionEnMinutos": 102
+  },
+  {
+    "Nombre": "Men in Black",
+    "FechaDeLanzamiento": 1997,
+    "Nodo": 0,
+    "IncluidoEnElPlan": false,
+    "SumaDeLasEvaluaciones": 0.0,
+    "TotalDeEvaluaciones": 0,
+    "DuracionEnMinutos": 98
+  }
+]

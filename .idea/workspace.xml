@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32a3c8e5-8c1b-4102-81ad-c60d1b378821" name="Changes" comment="Exceptions">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AluraJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/calculos/CalculadoraDeTiempo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/calculos/Clasificable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/calculos/FiltroRecomendacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/gson-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/modelos/Episodio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/modelos/Pelicula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/modelos/Serie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/modelos/Titulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/modelos/TituloOmdb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/principal/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/principal/PrincipalConBusqueda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AluraJava/com/alura/screenmatch/principal/PrincipalConListas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/calculos/CalculadoraDeTiempo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/calculos/Clasificable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/calculos/FiltroRecomendacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/excepcion/ErrorEnConversionDeDuracionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/gson-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/modelos/Pelicula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/modelos/TituloOmdb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/principal/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/principal/PrincipalConBusqueda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/screenmatch/principal/PrincipalConListas.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fey809doWygje5pPfinmbGhj8X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Repositorios/AluraJava/src/com/alura/screenmatch/gson-2.10.1.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.alura.screenmatch.excepcion" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.alura.screenmatch.excepcion" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PrincipalConBusqueda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alura.screenmatch.principal.PrincipalConBusqueda" />
+      <module name="AluraJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alura.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrincipalConBusqueda" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32a3c8e5-8c1b-4102-81ad-c60d1b378821" name="Changes" comment="" />
+      <created>1714175675093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714175675093</updated>
+      <workItem from="1714175677055" duration="177000" />
+      <workItem from="1714175866384" duration="11050000" />
+      <workItem from="1714242010514" duration="3599000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1714175995444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714175995444</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Request and reponses">
+      <option name="closed" value="true" />
+      <created>1714199037835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714199037835</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exceptions">
+      <option name="closed" value="true" />
+      <created>1714203393106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714203393106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Request and reponses" />
+    <MESSAGE value="Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
+  </component>
+</project>
