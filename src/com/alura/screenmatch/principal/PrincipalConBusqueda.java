@@ -1,7 +1,11 @@
 package com.alura.screenmatch.principal;
 
+import com.alura.screenmatch.excepcion.ErrorEnConversionDeDuracionException;
 import com.alura.screenmatch.modelos.Titulo;
+import com.alura.screenmatch.modelos.TituloOmdb;
+import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
 import java.net.URI;
@@ -19,25 +23,41 @@ public class PrincipalConBusqueda {
 
         System.out.println("Escriba el nombre de la pelicula: ");
         busqueda = s.nextLine();
-        direccion = "https://www.omdbapi.com/?t=" + busqueda + "&apikey=555af605";
+        direccion = "https://www.omdbapi.com/?t=" + busqueda.replace(" ", "+") + "&apikey=555af605";
+        try{
+            //Request
+            HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create(direccion))
+                    .build();
 
-        //Request
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(direccion))
-                .build();
 
+            //Response
+            HttpResponse<String> response = client
+                    .send(request, HttpResponse.BodyHandlers.ofString());
 
-        //Response
-        HttpResponse<String> response = client
-                .send(request, HttpResponse.BodyHandlers.ofString());
+            String json = response.body();
+            System.out.println(json);
 
-        String json = response.body();
-        System.out.println(json);
+            Gson gson = new GsonBuilder()
+                    .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                    .create();
+            TituloOmdb mitituloOmdb = gson.fromJson(json, TituloOmdb.class);
+            System.out.println(mitituloOmdb);
 
-        Gson gson = new Gson();
-        Titulo mititulo = gson.fromJson(json, Titulo.class);
-        System.out.println(mititulo);
+            Titulo mititulo = new Titulo(mitituloOmdb);
+            System.out.println(mititulo);
+        }catch (NumberFormatException e){
+            System.out.println("Ocurrio un error!");
+            System.out.println(e.getMessage());
+        }catch (IllegalArgumentException e){
+            System.out.println("Ocurrio un error en la URI, verifique la dirección!");
+            System.out.println(e.getMessage());
+        }catch (ErrorEnConversionDeDuracionException e){
+            System.out.println("Ocurrio un error inesperado");
+            System.out.println(e.getMessage());
+        }
+        System.out.println("Finalizo el ejecución del programa");
 
 
     }
